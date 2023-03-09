@@ -1,11 +1,58 @@
+html {
+  font-size: 16px;
+}
+
 body {
-  background-color: #222;
-  color: white;
+  /*background-color: #222;*/
+  color: rgba(255, 255, 255);
   font-family: Arial, Helvetica, sans-serif;
+  background-image: url("../img/fondo-cocina.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+p {
+  text-align: center;
+  font-size: 1rem;
+}
+
+h2 {
+  font-size: 2rem;
 }
 
 h1 {
-  color: red;
+  font-size: 3rem;
+}
+
+.chiquito {
+  font-size: 0.7rem;
+}
+
+#superDestacado {
+  color: pink;
+}
+
+.fotoDeReceta {
+  display: block;
+  margin: 0 auto;
+}
+
+.negrita {
+  font-weight: bold;
+}
+
+.italica {
+  font-style: italic;
+}
+
+.centrado {
   text-align: center;
-  font-size: 42px;
+}
+
+.subrayado {
+  text-decoration: underline 2px blue;
+}
+
+.verde {
+  background: green;
 }
