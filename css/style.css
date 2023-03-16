@@ -7,6 +7,10 @@
 
 */
 
+* {
+  box-sizing: border-box;
+}
+
 html {
   font-size: 16px;
 }
@@ -67,14 +71,17 @@ h1 {
 }
 
 .caja {
-  margin: 10px;
+  width: 50%;
+  float: left;
 }
+
+
 
 section, nav, footer {
   background-color: rgba(0, 0, 0, 0.8);
   border-radius: 20px;
   margin: 10px;
-  padding: 10px;
+  padding: 10px 40px;
 }
 
 nav ul li {
@@ -90,4 +97,16 @@ nav ul li a {
 
 nav ul li a:hover {
   color: rgb(208, 208, 253);
+}
+
+.flechaArriba {
+    width: 5rem;
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    cursor: pointer;
+}
+
+.clearfix {
+  overflow: auto;
 }
